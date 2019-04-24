@@ -6,6 +6,7 @@ function addElementToBeginningOfArray(array, element) {
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
   console.log(array.unshift(element))
+  return array
 }
 
 function addElementToEndOfArray(array, element) {
@@ -14,6 +15,7 @@ function addElementToEndOfArray(array, element) {
 
 function destructivelyAddElementToEndOfArray(array, element) {
   console.log(array.push(element))
+  return array
 }
 
 function accessElementInArray(array, index) {
